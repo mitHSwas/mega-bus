@@ -95,7 +95,7 @@ nav ul li a:hover, a.active{
 }
 .f-class{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 .inp-width{
@@ -104,9 +104,12 @@ nav ul li a:hover, a.active{
 .plus-minus-btn{
     color: #3352F2;
     font-size: 30px;
-    padding: 2px;
-    margin: 10px 10px 0px 0px;
+    padding: 2px 8px;
+    margin: 10px 10px 0px 10px;
     word-spacing: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer
 }
 .btn-style{
     display: block;
@@ -122,3 +125,19 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
+#conformation-area{
+    height: 400px;
+    width: 800px;
+    font-size: 23px;
+    margin: 100px 0px 0px 100px;
+    padding: 100px 50px;
+    color: whitesmoke;
+    background-color: #00ffff5e;
+    border-radius: 20px;
+    display: none;
+}
+#conformation-area h3{
+    text-align: center;
+    color: #f0cd74;
+    margin-top: 30px;
+} 
